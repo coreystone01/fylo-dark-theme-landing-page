@@ -1,0 +1,10 @@
+@use '/scss/abstract/variables';
+@use '/scss/abstract/mixins';
+
+.--dark-blue-intro  {
+    background-color: variables.$dark-blue-intro;
+}
+
+.--white    {
+    color: variables.$white;
+}
