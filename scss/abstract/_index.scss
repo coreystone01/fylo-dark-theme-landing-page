@@ -15,7 +15,11 @@
     color: variables.$white;
 }
 
-.--cyan {
+.--cyan-text    {
+    color: variables.$cyan;
+}
+
+.--cyan-bg {
     background: variables.$cyan;
 }
 
