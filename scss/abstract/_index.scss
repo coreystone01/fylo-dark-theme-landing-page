@@ -28,6 +28,10 @@
 .--is-bold  {
     font-weight: 700;
 }
+
+.--centered {
+    text-align: center;
+}
 // Headings, Call-to-actions, Header Navigation
 .--raleway  { 
     font-family: variables.$font-raleway;
