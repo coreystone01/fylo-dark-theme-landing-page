@@ -1,10 +1,30 @@
 @use '/scss/abstract/variables';
 @use '/scss/abstract/mixins';
 
+
+// colors
 .--dark-blue-intro  {
     background-color: variables.$dark-blue-intro;
 }
 
 .--white    {
     color: variables.$white;
+}
+
+// font styles
+
+.--is-normal {
+    font-weight: 400;
+}
+
+.--is-bold  {
+    font-weight: 700;
+}
+
+.--raleway  { 
+    font-family: variables.$font-raleway;
+}
+
+.--sans {
+    font-family: variables.$font-sans;
 }
