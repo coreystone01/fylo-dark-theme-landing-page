@@ -7,8 +7,16 @@
     background-color: variables.$dark-blue-intro;
 }
 
+.--dark-blue-main   {
+    background-color: variables.$dark-blue-main;
+}
+
 .--white    {
     color: variables.$white;
+}
+
+.--cyan {
+    background: variables.$cyan;
 }
 
 // font styles
@@ -20,11 +28,11 @@
 .--is-bold  {
     font-weight: 700;
 }
-
+// Headings, Call-to-actions, Header Navigation
 .--raleway  { 
     font-family: variables.$font-raleway;
 }
-
+// body
 .--sans {
     font-family: variables.$font-sans;
 }
