@@ -2,12 +2,12 @@
 @use '/scss/abstract/mixins';
 
 .navbar {
-    flex: 2;
+    flex: 1;
 
     // flex box on the ul under navbar
     &__list {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 

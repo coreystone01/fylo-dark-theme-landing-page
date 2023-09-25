@@ -2,10 +2,15 @@
 @use '/scss/abstract/mixins';
 
 
-.logo > img{
-    width: 7rem;
+.logo {
+
+    flex: 1;
+
+    > img{
+        width: 7rem;
+    }
 }
 
 .hero__img  {
-    width: 100%;
+    width: 325px;
 }
