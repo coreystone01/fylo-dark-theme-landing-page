@@ -1,6 +1,11 @@
 @use '/scss/abstract/variables';
 @use '/scss/abstract/mixins';
 
+
+.logo > img{
+    width: 7rem;
+}
+
 .hero__img  {
     width: 100%;
 }
