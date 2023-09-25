@@ -1,0 +1,14 @@
+@use '/scss/abstract/variables';
+@use '/scss/abstract/mixins';
+
+
+.pitch  {
+    flex-direction: column;
+    gap: 6rem;
+    display: flex;
+    align-items: center;
+
+    %-box__header   {
+        margin-bottom: 1rem;
+    }
+}
