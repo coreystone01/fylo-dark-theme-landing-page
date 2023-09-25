@@ -1,0 +1,19 @@
+@use '/scss/abstract/variables';
+@use '/scss/abstract/mixins';
+
+.hero   {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    &__content  {
+        text-align: left;
+    }
+
+    &__button   {
+        border-radius: 50px;
+        padding: 1.4rem;
+        width: 15rem;
+    }
+}
