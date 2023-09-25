@@ -4,6 +4,7 @@
 // should probably throw these into a mixin, but I like this convention for this project
 .box    {
     display: flex;
+    padding: 1%;
 
     &--column{
         flex-direction: column;

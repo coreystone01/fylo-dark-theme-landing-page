@@ -1,0 +1,31 @@
+@use '/scss/abstract/variables';
+@use '/scss/abstract/mixins';
+
+.--white    {
+    color: variables.$white;
+}
+
+.--cyan-text    {
+    color: variables.$cyan;
+}
+
+.--is-normal {
+    font-weight: 400;
+}
+
+.--is-bold  {
+    font-weight: 700;
+}
+
+.--centered {
+    text-align: center;
+}
+
+// Headings, Call-to-actions, Header Navigation
+.--raleway  { 
+    font-family: variables.$font-raleway;
+}
+// body
+.--sans {
+    font-family: variables.$font-sans;
+}
