@@ -1,0 +1,14 @@
+@use '/scss/abstract/variables';
+@use '/scss/abstract/mixins';
+
+.closing    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+
+    &__content {
+        width: 300px;
+        text-align: left;
+    }
+}

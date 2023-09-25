@@ -4,11 +4,11 @@
 
 .pitch  {
     flex-direction: column;
-    gap: 6rem;
+    gap: 5rem;
     display: flex;
     align-items: center;
 
-    %-box__header   {
+    &-box__header   {
         margin-bottom: 1rem;
     }
 }
