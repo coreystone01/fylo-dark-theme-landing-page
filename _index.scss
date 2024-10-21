@@ -1,0 +1,18 @@
+// Handle all file path management here
+// Manifest File
+
+@use 'scss/base/reset';
+@use 'scss/abstract/variables';
+@use 'scss/abstract/mixins';
+@use 'scss/abstract/font';
+// @use 'scss/views/index';
+@use 'scss/base/images';
+@use 'scss/layout/header';
+@use 'scss/layout/body';
+@use 'scss/components/navbar';
+@use 'scss/components/box';
+@use 'scss/layout/hero';
+@use 'scss/layout/pitch';
+@use 'scss/layout/closing';
+@use 'scss/layout/profiles';
+@use 'scss/layout/signup';

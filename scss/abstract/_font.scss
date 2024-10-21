@@ -1,5 +1,6 @@
-@use '/scss/abstract/variables';
-@use '/scss/abstract/mixins';
+@use 'variables';
+@use 'mixins';
+// @use 'index';
 
 .--white    {
     color: variables.$white;
