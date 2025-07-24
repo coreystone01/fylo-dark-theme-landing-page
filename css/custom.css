@@ -118,6 +118,16 @@ header {
   color: hsl(0, 0%, 100%);
 }
 
+.closing__link {
+  text-underline-offset: 6px;
+  color: hsl(176, 68%, 64%);
+}
+
+.closing__link__line {
+  width: stretch;
+  margin-left: 0rem;
+}
+
 .profiles {
   gap: 2rem;
   font-size: 12px;

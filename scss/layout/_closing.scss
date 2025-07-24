@@ -4,3 +4,13 @@
     background-color: variables.$dark-blue-main;
     color: variables.$white;
 }
+
+.closing__link {
+  text-underline-offset: 6px;
+  color: variables.$cyan;
+}
+
+.closing__link__line{
+  width: stretch;
+  margin-left: 0rem;
+}
