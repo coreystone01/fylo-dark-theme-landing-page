@@ -5,6 +5,8 @@
     font-size: 12px;
     background-color: variables.$dark-blue-main;
     color: variables.$white;
+    padding-top: 12rem;
+    margin-bottom: -5rem;
 
     &__card {
         background-color: variables.$dark-blue-testimonials;
@@ -16,4 +18,5 @@
     font-size: 12px;
     background-color: variables.$cyan;
     color: variables.$white;
+    // padding-top: 10rem;
 }

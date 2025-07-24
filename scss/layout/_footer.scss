@@ -1,0 +1,8 @@
+@use '../abstract/variables';
+
+.footer {
+    background-color: variables.$dark-blue-footer;
+    padding-top: 10rem;
+    color: white;
+    font-size: 12px;
+}
