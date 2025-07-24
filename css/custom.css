@@ -129,14 +129,16 @@ header {
 }
 
 .profiles {
-  gap: 2rem;
   font-size: 12px;
   line-height: 1.6;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
 }
 .profiles__card {
+  background-color: hsl(219, 30%, 18%);
   width: 300px;
   border-radius: 15px;
-  padding: 1rem;
+  padding: 0.5rem;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);

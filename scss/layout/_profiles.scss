@@ -1,14 +1,16 @@
 @use '../abstract/variables';
 
 .profiles{
-    gap: 2rem;
     font-size: 12px;
     line-height: 1.6;
+    background-color: variables.$dark-blue-main;
+    color: variables.$white;
 
     &__card {
+        background-color: variables.$dark-blue-testimonials;
         width: 300px;
         border-radius: 15px;
-        padding: 1rem;
+        padding: 0.5rem;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
