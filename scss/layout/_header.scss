@@ -1,9 +1,6 @@
 @use '../abstract/variables';
 
-// header {
-//     // display: flex;
-//     // justify-content: space-between;
-//     // align-items: center;
-//     // padding: 5%;
-//     // padding-bottom: 2rem;
-// }
+header {
+    // Will consider just adding css custom properties so we can add this directly into HTML and get rid of these files.
+    background-color: variables.$dark-blue-intro;
+}

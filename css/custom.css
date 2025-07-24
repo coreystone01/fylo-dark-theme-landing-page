@@ -73,20 +73,16 @@
   grid-row: 2;
 }
 
+header {
+  background-color: hsl(217, 28%, 15%);
+}
+
 .body {
   height: 100vh;
 }
 
 .wrapper {
   width: 100%;
-}
-
-.navbar {
-  flex: 1;
-}
-.navbar__list {
-  display: flex;
-  justify-content: space-between;
 }
 
 .box {
