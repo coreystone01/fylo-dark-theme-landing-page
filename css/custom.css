@@ -114,14 +114,8 @@ header {
 }
 
 .closing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.2rem;
-}
-.closing__content {
-  width: 300px;
-  text-align: left;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
 }
 
 .profiles {

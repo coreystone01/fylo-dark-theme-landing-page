@@ -1,13 +1,6 @@
 @use '../abstract/variables';
 
 .closing    {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.2rem;
-
-    &__content {
-        width: 300px;
-        text-align: left;
-    }
+    background-color: variables.$dark-blue-main;
+    color: variables.$white;
 }
