@@ -109,13 +109,8 @@ header {
 }
 
 .pitch {
-  flex-direction: column;
-  gap: 5rem;
-  display: flex;
-  align-items: center;
-}
-.pitch-box__header {
-  margin-bottom: 1rem;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
 }
 
 .closing {

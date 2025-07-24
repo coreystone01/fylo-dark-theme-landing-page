@@ -2,12 +2,10 @@
 
 
 .pitch  {
-    flex-direction: column;
-    gap: 5rem;
-    display: flex;
-    align-items: center;
-
-    &-box__header   {
-        margin-bottom: 1rem;
-    }
+    // flex-direction: column;
+    // gap: 5rem;
+    // display: flex;
+    // align-items: center;
+    background-color: variables.$dark-blue-main;
+    color: variables.$white;
 }
