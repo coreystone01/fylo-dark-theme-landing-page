@@ -1,6 +1,10 @@
 node_modules
 .parcel-cache
-/design
-/dist
+.parcel-cache/
+design/
+dist/
+design
+dist
 package-log.json
 style-guide.md
+css/custom.css.map
