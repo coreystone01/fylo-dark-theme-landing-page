@@ -2,7 +2,7 @@
 
 .hero   {
 
-    background-color: variables.$dark-blue-intro;
+    background-color: variables.$dark-blue-main;
     color: variables.$white;
 }
 
@@ -10,4 +10,8 @@
 
         background-color: variables.$cyan;
         color: variables.$white;
+}
+
+.hero-img-wrapper {
+    background-color: variables.$dark-blue-intro;
 }

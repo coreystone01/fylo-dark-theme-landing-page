@@ -28,11 +28,14 @@
   </nav>
 </header>
 <div class="wrapper">
-<!-- Begin hero section -->
+  <div class="hero-img-wrapper">
+    <img src="/images/illustration-intro.png" alt="Introduction Illustration of people filing papers" class="hero__img w-75 d-block m-auto mb-4">
+    <!-- Unfortunately there is a lot of negative margin here to get the headings to match what the design needs, but it does work:  -->
+     <!-- you'll need this in your bootstrap file: $enable-negative-margins: true; -->
+    <img src="/images/bg-curvy-mobile.svg" alt="" class="hero__bg__img w-100 mb-n5">
+  </div>
 <section class="hero d-flex flex-column align-items-center gap-4">
-  <!-- we could probably just span this as well -->
-  <img src="/images/illustration-intro.png" alt="Introduction Illustration of people filing papers" class="hero__img w-75 mt-5">
-  <h1 class="hero__heading text-center">
+  <h1 class="hero__heading text-center mt-n5">
     All your files in one secure<br>location, accessible<br> anywhere.
   </h1>
   <p class="hero__content text-center">
@@ -42,8 +45,6 @@
     family, and co-workers.
   </p>
   <button id="hero__button" class="btn p-4 rounded-5 w-75 fw-semibold" aria-label="Click to get started">Get Started</button>
-  <!-- this probably needs to go in a span since it's not important -->
-  <span class="hero__bg__img__container"><img src="/images/bg-curvy-mobile.svg" alt="" class="hero__bg__img"></span>
 </section>
 <!-- Begin Sales Pitch Section -->
 <section class="pitch">
