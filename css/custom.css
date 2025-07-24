@@ -6,6 +6,7 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+  line-height: 1.6;
 }
 
 .--white {
@@ -138,7 +139,7 @@ header {
   background-color: hsl(219, 30%, 18%);
   width: 300px;
   border-radius: 15px;
-  padding: 0.5rem;
+  padding: 1rem;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
@@ -147,6 +148,7 @@ header {
 }
 .profiles__card__content {
   grid-column: 1/span 2;
+  margin-bottom: 0rem;
 }
 .profiles__card__name {
   margin-left: -6rem;
@@ -162,17 +164,17 @@ header {
 .sign-up {
   gap: 2rem;
   font-size: 12px;
-  line-height: 1.6;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
 }
 .sign-up__card {
-  width: 300px;
-  border-radius: 15px;
-  padding: 1rem;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  align-content: center;
+  background-color: hsl(219, 30%, 18%);
+}
+
+#signup-button {
+  font-size: 12px;
+  background-color: hsl(176, 68%, 64%);
+  color: hsl(0, 0%, 100%);
 }
 
 /*!
