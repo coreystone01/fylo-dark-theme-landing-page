@@ -2,12 +2,19 @@
 
 
 .navbar {
-    // flex: 1;
 
-    // flex box on the ul under navbar
     &__list {
-        // display: flex;
-        // justify-content: space-between;
+
+    }
+    &__list__item__link {
+        font-family: variables.$font-raleway;
+        color: variables.$white;
     }
 }
 
+.logo {
+
+    > img{
+        width: 8rem;
+    }
+}

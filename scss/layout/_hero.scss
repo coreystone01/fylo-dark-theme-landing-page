@@ -1,18 +1,13 @@
 @use '../abstract/variables';
 
 .hero   {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
 
-    &__content  {
-        text-align: left;
-    }
+    background-color: variables.$dark-blue-intro;
+    color: variables.$white;
+}
 
-    &__button   {
-        border-radius: 50px;
-        padding: 1.4rem;
-        width: 15rem;
-    }
+#hero__button   {
+
+        background-color: variables.$cyan;
+        color: variables.$white;
 }

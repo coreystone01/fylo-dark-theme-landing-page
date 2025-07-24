@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 // Breakpoints
 $mini-mobile: 275px;
 $mobile: 375px;
@@ -15,15 +19,7 @@ $light-red: hsl(0, 100%, 63%);
 $white: hsl(0, 0%, 100%);
 
 // fonts
-@font-face {
-    font-family: 'Raleway';
-    src: url(https://fonts.google.com/specimen/Raleway);
-}
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url(https://fonts.google.com/specimen/Open+Sans);
-}
 
 $font-body-copy-size: 14px;
 // Headings, Call-to-actions, Header Navigation

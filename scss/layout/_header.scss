@@ -4,3 +4,13 @@ header {
     // Will consider just adding css custom properties so we can add this directly into HTML and get rid of these files.
     background-color: variables.$dark-blue-intro;
 }
+
+.logo {
+
+    // flex: 1;
+
+    > img{
+        // can't really remove this class
+        width: 7rem;
+    }
+}

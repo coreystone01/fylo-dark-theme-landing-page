@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,14 +8,6 @@
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "Raleway";
-  src: url(https://fonts.google.com/specimen/Raleway);
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(https://fonts.google.com/specimen/Open+Sans);
-}
 .--white {
   color: hsl(0, 0%, 100%);
 }
@@ -43,17 +36,6 @@
   font-family: "Open Sans";
 }
 
-.logo {
-  flex: 1;
-}
-.logo > img {
-  width: 7rem;
-}
-
-.hero__img {
-  width: 325px;
-}
-
 .pitch-box__img {
   width: 55px;
   margin-bottom: 2rem;
@@ -77,12 +59,25 @@ header {
   background-color: hsl(217, 28%, 15%);
 }
 
+.logo > img {
+  width: 7rem;
+}
+
 .body {
   height: 100vh;
 }
 
 .wrapper {
   width: 100%;
+}
+
+.navbar__list__item__link {
+  font-family: "Raleway";
+  color: hsl(0, 0%, 100%);
+}
+
+.logo > img {
+  width: 8rem;
 }
 
 .box {
@@ -100,18 +95,13 @@ header {
 }
 
 .hero {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+  background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
 }
-.hero__content {
-  text-align: left;
-}
-.hero__button {
-  border-radius: 50px;
-  padding: 1.4rem;
-  width: 15rem;
+
+#hero__button {
+  background-color: hsl(176, 68%, 64%);
+  color: hsl(0, 0%, 100%);
 }
 
 .pitch {
